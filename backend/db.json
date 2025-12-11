@@ -1,0 +1,1042 @@
+{
+  "users": [
+    {
+      "name": "Siddaram",
+      "email": "sid@gmail.com",
+      "password": "12345",
+      "lastInput": {
+        "name": "Siddaram",
+        "age": 20,
+        "gender": "Male",
+        "heightCm": 170,
+        "weightKg": 70,
+        "goal": "Weight Loss",
+        "level": "Beginner",
+        "location": "Home",
+        "diet": "Veg",
+        "medicalHistory": "",
+        "stressLevel": ""
+      },
+      "history": [
+        {
+          "id": 1765456097770,
+          "date": "2025-12-11T12:28:17.770Z",
+          "input": {
+            "name": "Siddaram",
+            "age": 20,
+            "gender": "Male",
+            "heightCm": 170,
+            "weightKg": 70,
+            "goal": "Weight Loss",
+            "level": "Beginner",
+            "location": "Home",
+            "diet": "Veg",
+            "medicalHistory": "",
+            "stressLevel": ""
+          },
+          "plan": {
+            "workout": [
+              {
+                "day": "Monday",
+                "exercise": "Brisk Walking",
+                "duration": "30 minutes",
+                "sets": "1",
+                "reps": "None",
+                "warmUp": "5 minutes of jogging in place",
+                "coolDown": "5 minutes of stretching"
+              },
+              {
+                "day": "Tuesday",
+                "exercise": "Bodyweight Squats",
+                "duration": "3 sets of 12 reps",
+                "sets": "3",
+                "reps": "12",
+                "warmUp": "5 minutes of arm circles and leg swings",
+                "coolDown": "5 minutes of hamstring stretches"
+              },
+              {
+                "day": "Wednesday",
+                "exercise": "Rest Day",
+                "duration": "None",
+                "sets": "None",
+                "reps": "None",
+                "warmUp": "None",
+                "coolDown": "None"
+              },
+              {
+                "day": "Thursday",
+                "exercise": "Push-ups",
+                "duration": "3 sets of 12 reps",
+                "sets": "3",
+                "reps": "12",
+                "warmUp": "5 minutes of shoulder rolls and wrist extensions",
+                "coolDown": "5 minutes of chest stretches"
+              },
+              {
+                "day": "Friday",
+                "exercise": "Lunges",
+                "duration": "3 sets of 12 reps (per leg)",
+                "sets": "3",
+                "reps": "12",
+                "warmUp": "5 minutes of hip circles and calf raises",
+                "coolDown": "5 minutes of quadriceps stretches"
+              },
+              {
+                "day": "Saturday",
+                "exercise": "Plank",
+                "duration": "3 sets of 30-second hold",
+                "sets": "3",
+                "reps": "None",
+                "warmUp": "5 minutes of side bends and leg lifts",
+                "coolDown": "5 minutes of lower back stretches"
+              },
+              {
+                "day": "Sunday",
+                "exercise": "Yoga",
+                "duration": "30 minutes",
+                "sets": "1",
+                "reps": "None",
+                "warmUp": "5 minutes of downward-facing dog and warrior poses",
+                "coolDown": "5 minutes of savasana"
+              }
+            ],
+            "diet": [
+              {
+                "meal": "Breakfast",
+                "food": "Oatmeal with fruits and nuts",
+                "calories": "300-400"
+              },
+              {
+                "meal": "Lunch",
+                "food": "Brown rice with lentils and vegetables",
+                "calories": "400-500"
+              },
+              {
+                "meal": "Dinner",
+                "food": "Quinoa with chickpeas and mixed vegetables",
+                "calories": "500-600"
+              },
+              {
+                "meal": "Snack",
+                "food": "Fresh fruits and carrot sticks with hummus",
+                "calories": "100-200"
+              }
+            ],
+            "tips": [
+              {
+                "tip": "Stay hydrated by drinking at least 8 glasses of water per day"
+              },
+              {
+                "tip": "Get at least 7-8 hours of sleep per night"
+              },
+              {
+                "tip": "Incorporate stress-reducing activities like meditation or deep breathing exercises"
+              },
+              {
+                "tip": "Monitor your progress by tracking your workouts and weight loss"
+              }
+            ],
+            "motivation": [
+              {
+                "quote": "Believe in yourself and you'll be unstoppable"
+              },
+              {
+                "quote": "Small steps today, a healthier tomorrow"
+              },
+              {
+                "quote": "Exercise is a celebration of what your body can do, not a punishment for what you ate"
+              },
+              {
+                "quote": "You don't have to be great to start, but you have to start to be great"
+              }
+            ]
+          }
+        }
+      ],
+      "lastGeneratedPlan": {
+        "formInput": {
+          "name": "Siddaram",
+          "age": 20,
+          "gender": "Male",
+          "heightCm": 170,
+          "weightKg": 70,
+          "goal": "Weight Loss",
+          "level": "Beginner",
+          "location": "Home",
+          "diet": "Veg",
+          "medicalHistory": "",
+          "stressLevel": ""
+        },
+        "plan": {
+          "workoutPlan": [
+            {
+              "day": 1,
+              "warmUp": "5-10 minutes of light cardio (jogging in place, jumping jacks)",
+              "exercises": [
+                {
+                  "name": "Bodyweight Squats",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Push-ups",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Lunges",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Plank",
+                  "sets": 3,
+                  "reps": 30
+                }
+              ],
+              "coolDown": "5-10 minutes of stretching"
+            },
+            {
+              "day": 2,
+              "warmUp": "5-10 minutes of light cardio (jogging in place, jumping jacks)",
+              "exercises": [
+                {
+                  "name": "Chair Dips",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Leg Raises",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Wall Sit",
+                  "sets": 3,
+                  "reps": 30
+                },
+                {
+                  "name": "Russian Twists",
+                  "sets": 3,
+                  "reps": 10
+                }
+              ],
+              "coolDown": "5-10 minutes of stretching"
+            },
+            {
+              "day": 3,
+              "warmUp": "5-10 minutes of light cardio (jogging in place, jumping jacks)",
+              "exercises": [
+                {
+                  "name": "Burpees",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Mountain Climbers",
+                  "sets": 3,
+                  "reps": 30
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "sets": 3,
+                  "reps": 30
+                },
+                {
+                  "name": "Plank Jumps",
+                  "sets": 3,
+                  "reps": 10
+                }
+              ],
+              "coolDown": "5-10 minutes of stretching"
+            },
+            {
+              "day": 4,
+              "warmUp": "5-10 minutes of light cardio (jogging in place, jumping jacks)",
+              "exercises": [
+                {
+                  "name": "Squat Jumps",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Lunge Jumps",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Calf Raises",
+                  "sets": 3,
+                  "reps": 15
+                },
+                {
+                  "name": "Seated Forward Fold",
+                  "sets": 3,
+                  "reps": 30
+                }
+              ],
+              "coolDown": "5-10 minutes of stretching"
+            },
+            {
+              "day": 5,
+              "warmUp": "5-10 minutes of light cardio (jogging in place, jumping jacks)",
+              "exercises": [
+                {
+                  "name": "Push-up Variations",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Tricep Dips (using a chair)",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Bicycle Crunches",
+                  "sets": 3,
+                  "reps": 15
+                },
+                {
+                  "name": "Russian Twists",
+                  "sets": 3,
+                  "reps": 10
+                }
+              ],
+              "coolDown": "5-10 minutes of stretching"
+            },
+            {
+              "day": 6,
+              "warmUp": "5-10 minutes of light cardio (jogging in place, jumping jacks)",
+              "exercises": [
+                {
+                  "name": "Burpees",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Mountain Climbers",
+                  "sets": 3,
+                  "reps": 30
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "sets": 3,
+                  "reps": 30
+                },
+                {
+                  "name": "Plank Jumps",
+                  "sets": 3,
+                  "reps": 10
+                }
+              ],
+              "coolDown": "5-10 minutes of stretching"
+            },
+            {
+              "day": 7,
+              "warmUp": "5-10 minutes of light cardio (jogging in place, jumping jacks)",
+              "exercises": [
+                {
+                  "name": "Squat Jumps",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Lunge Jumps",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Calf Raises",
+                  "sets": 3,
+                  "reps": 15
+                },
+                {
+                  "name": "Seated Forward Fold",
+                  "sets": 3,
+                  "reps": 30
+                }
+              ],
+              "coolDown": "5-10 minutes of stretching"
+            }
+          ],
+          "dietPlan": [
+            {
+              "day": 1,
+              "breakfast": "Oatmeal with fruits and nuts",
+              "lunch": "Veggie wrap with hummus and avocado",
+              "dinner": "Lentil soup with brown rice",
+              "snacks": [
+                "Carrot sticks with hummus",
+                "Fresh fruits"
+              ]
+            },
+            {
+              "day": 2,
+              "breakfast": "Whole grain toast with avocado and scrambled tofu",
+              "lunch": "Quinoa salad with roasted vegetables",
+              "dinner": "Grilled tofu with roasted sweet potatoes and green beans",
+              "snacks": [
+                "Cucumber slices with dill dip",
+                "Dark chocolate square"
+              ]
+            },
+            {
+              "day": 3,
+              "breakfast": "Smoothie bowl with banana, spinach, and almond milk",
+              "lunch": "Veggie and hummus wrap",
+              "dinner": "Vegetable stir-fry with brown rice and tofu",
+              "snacks": [
+                "Rice cakes with almond butter and banana slices",
+                "Edamame"
+              ]
+            },
+            {
+              "day": 4,
+              "breakfast": "Whole grain cereal with soy milk and sliced banana",
+              "lunch": "Lentil and vegetable stew",
+              "dinner": "Grilled portobello mushrooms with roasted vegetables and quinoa",
+              "snacks": [
+                "Apple slices with peanut butter",
+                "Trail mix with nuts and dried fruits"
+              ]
+            },
+            {
+              "day": 5,
+              "breakfast": "Tofu scramble with whole grain toast and sautéed spinach",
+              "lunch": "Veggie and avocado sushi rolls",
+              "dinner": "Vegetable and bean chili with brown rice",
+              "snacks": [
+                "Carrot sticks with hummus",
+                "Fresh fruits"
+              ]
+            },
+            {
+              "day": 6,
+              "breakfast": "Oatmeal with sliced banana and almond butter",
+              "lunch": "Quinoa and black bean salad",
+              "dinner": "Grilled tofu with roasted asparagus and brown rice",
+              "snacks": [
+                "Cucumber slices with dill dip",
+                "Dark chocolate square"
+              ]
+            },
+            {
+              "day": 7,
+              "breakfast": "Whole grain waffles with fresh berries and soy yogurt",
+              "lunch": "Veggie and hummus wrap",
+              "dinner": "Lentil and vegetable curry with brown rice",
+              "snacks": [
+                "Rice cakes with almond butter and banana slices",
+                "Edamame"
+              ]
+            }
+          ]
+        },
+        "createdAt": "2025-12-11T12:53:57.673Z"
+      }
+    },
+    {
+      "id": 1765453381821,
+      "name": "Anant",
+      "email": "anant@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": 1765453574439,
+      "name": "Abhi",
+      "email": "abhi@gmail.com",
+      "password": "12345",
+      "lastInput": {
+        "name": "Abhi",
+        "age": 20,
+        "gender": "Male",
+        "heightCm": 170,
+        "weightKg": 70,
+        "goal": "Weight Loss",
+        "level": "Beginner",
+        "location": "Home",
+        "diet": "Veg",
+        "medicalHistory": "",
+        "stressLevel": ""
+      }
+    },
+    {
+      "id": 1765455666689,
+      "name": "Darshan",
+      "email": "dar@gmail.com",
+      "password": "12345",
+      "history": [
+        {
+          "id": 1765455683978,
+          "date": "2025-12-11T12:21:23.978Z",
+          "input": {
+            "name": "Darshan",
+            "age": 20,
+            "gender": "Male",
+            "heightCm": 170,
+            "weightKg": 70,
+            "goal": "Weight Loss",
+            "level": "Beginner",
+            "location": "Home",
+            "diet": "Veg",
+            "medicalHistory": "",
+            "stressLevel": ""
+          },
+          "plan": {
+            "workout": [
+              {
+                "day": "Monday",
+                "routine": "Brisk Walking",
+                "duration": "30 minutes",
+                "sets": "3 sets of 10 reps",
+                "exercises": [
+                  "Jumping Jacks",
+                  "Push-ups",
+                  "Squats"
+                ]
+              },
+              {
+                "day": "Tuesday",
+                "routine": "Upper Body",
+                "duration": "45 minutes",
+                "sets": "3 sets of 12 reps",
+                "exercises": [
+                  "Push-ups",
+                  "Arm Circles",
+                  "Tricep Dips (using a chair)"
+                ]
+              },
+              {
+                "day": "Wednesday",
+                "routine": "Rest Day",
+                "duration": "0 minutes",
+                "sets": "0 sets",
+                "exercises": []
+              },
+              {
+                "day": "Thursday",
+                "routine": "Lower Body",
+                "duration": "45 minutes",
+                "sets": "3 sets of 12 reps",
+                "exercises": [
+                  "Squats",
+                  "Calf Raises",
+                  "Lunges"
+                ]
+              },
+              {
+                "day": "Friday",
+                "routine": "Core",
+                "duration": "30 minutes",
+                "sets": "3 sets of 10 reps",
+                "exercises": [
+                  "Plank",
+                  "Russian Twists",
+                  "Leg Raises"
+                ]
+              },
+              {
+                "day": "Saturday",
+                "routine": "Yoga",
+                "duration": "45 minutes",
+                "sets": "3 sets",
+                "exercises": [
+                  "Downward-Facing Dog",
+                  "Warrior Pose",
+                  "Tree Pose"
+                ]
+              },
+              {
+                "day": "Sunday",
+                "routine": "Rest Day",
+                "duration": "0 minutes",
+                "sets": "0 sets",
+                "exercises": []
+              }
+            ],
+            "diet": [
+              {
+                "meal": "Breakfast",
+                "food": "Oatmeal with fruits and nuts",
+                "calories": "300-400"
+              },
+              {
+                "meal": "Lunch",
+                "food": "Brown rice with mixed vegetables and lentils",
+                "calories": "400-500"
+              },
+              {
+                "meal": "Snack",
+                "food": "Fresh fruits and carrot sticks with hummus",
+                "calories": "100-200"
+              },
+              {
+                "meal": "Dinner",
+                "food": "Quinoa with roasted vegetables and avocado",
+                "calories": "500-600"
+              },
+              {
+                "meal": "Supper",
+                "food": "Herbal tea with a small bowl of salad",
+                "calories": "100-200"
+              }
+            ],
+            "tips": [
+              {
+                "tip": "Stay hydrated by drinking at least 8-10 glasses of water per day"
+              },
+              {
+                "tip": "Get enough sleep (7-8 hours) per night to aid in weight loss"
+              },
+              {
+                "tip": "Incorporate physical activity into your daily routine, such as taking the stairs instead of the elevator"
+              },
+              {
+                "tip": "Keep track of your calorie intake and macronutrient balance to ensure you're meeting your weight loss goals"
+              }
+            ],
+            "motivation": [
+              {
+                "quote": "You don't have to be great to start, but you have to start to be great"
+              },
+              {
+                "quote": "Small steps today, a healthier tomorrow"
+              },
+              {
+                "quote": "Believe in yourself and your abilities, and you'll be unstoppable"
+              },
+              {
+                "quote": "Remember, every step forward is a step closer to your weight loss goal"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 1765455931443,
+      "name": "admin",
+      "email": "ad@gmail.com",
+      "password": "12345",
+      "history": [
+        {
+          "id": 1765455950529,
+          "date": "2025-12-11T12:25:50.529Z",
+          "input": {
+            "name": "admin",
+            "age": 20,
+            "gender": "Male",
+            "heightCm": 170,
+            "weightKg": 70,
+            "goal": "Weight Loss",
+            "level": "Beginner",
+            "location": "Home",
+            "diet": "Veg",
+            "medicalHistory": "",
+            "stressLevel": ""
+          },
+          "plan": {
+            "workout": [
+              {
+                "day": "Monday",
+                "routine": "Brisk Walking",
+                "duration": "30 minutes",
+                "sets": "3",
+                "reps": "None",
+                "warmup": "5 minutes of light cardio",
+                "cooldown": "5 minutes of stretching"
+              },
+              {
+                "day": "Tuesday",
+                "routine": "Bodyweight Squats",
+                "duration": "20 minutes",
+                "sets": "3",
+                "reps": "12",
+                "warmup": "5 minutes of light cardio",
+                "cooldown": "5 minutes of stretching"
+              },
+              {
+                "day": "Wednesday",
+                "routine": "Rest Day",
+                "duration": "None",
+                "sets": "None",
+                "reps": "None",
+                "warmup": "None",
+                "cooldown": "None"
+              },
+              {
+                "day": "Thursday",
+                "routine": "Push-ups",
+                "duration": "20 minutes",
+                "sets": "3",
+                "reps": "12",
+                "warmup": "5 minutes of light cardio",
+                "cooldown": "5 minutes of stretching"
+              },
+              {
+                "day": "Friday",
+                "routine": "Lunges",
+                "duration": "20 minutes",
+                "sets": "3",
+                "reps": "12",
+                "warmup": "5 minutes of light cardio",
+                "cooldown": "5 minutes of stretching"
+              },
+              {
+                "day": "Saturday",
+                "routine": "Planks",
+                "duration": "20 minutes",
+                "sets": "3",
+                "reps": "60 seconds",
+                "warmup": "5 minutes of light cardio",
+                "cooldown": "5 minutes of stretching"
+              },
+              {
+                "day": "Sunday",
+                "routine": "Yoga",
+                "duration": "30 minutes",
+                "sets": "None",
+                "reps": "None",
+                "warmup": "5 minutes of light cardio",
+                "cooldown": "5 minutes of stretching"
+              }
+            ],
+            "diet": [
+              {
+                "day": "Monday",
+                "breakfast": "Oatmeal with fruits and nuts",
+                "lunch": "Brown rice with lentils and vegetables",
+                "dinner": "Quinoa with roasted vegetables and avocado"
+              },
+              {
+                "day": "Tuesday",
+                "breakfast": "Whole grain toast with almond butter and banana",
+                "lunch": "Chickpea salad with whole grain bread",
+                "dinner": "Grilled tofu with brown rice and steamed broccoli"
+              },
+              {
+                "day": "Wednesday",
+                "breakfast": "Smoothie bowl with spinach, banana, and almond milk",
+                "lunch": "Lentil soup with whole grain bread",
+                "dinner": "Grilled portobello mushrooms with quinoa and roasted vegetables"
+              },
+              {
+                "day": "Thursday",
+                "breakfast": "Whole grain cereal with soy milk and sliced banana",
+                "lunch": "Hummus with carrot and celery sticks",
+                "dinner": "Vegetable stir-fry with brown rice and tofu"
+              },
+              {
+                "day": "Friday",
+                "breakfast": "Avocado toast with scrambled tofu",
+                "lunch": "Quinoa salad with roasted vegetables and chickpeas",
+                "dinner": "Grilled eggplant with whole grain pasta and marinara sauce"
+              },
+              {
+                "day": "Saturday",
+                "breakfast": "Whole grain waffles with almond butter and sliced banana",
+                "lunch": "Lentil and vegetable curry with brown rice",
+                "dinner": "Stuffed bell peppers with quinoa, black beans, and roasted vegetables"
+              },
+              {
+                "day": "Sunday",
+                "breakfast": "Tofu scramble with whole grain toast and sautéed spinach",
+                "lunch": "Chickpea and avocado salad with whole grain bread",
+                "dinner": "Grilled tofu with roasted sweet potatoes and steamed green beans"
+              }
+            ],
+            "tips": [
+              "Drink at least 8 glasses of water per day",
+              "Get at least 7 hours of sleep per night",
+              "Incorporate physical activity into your daily routine, such as taking the stairs or walking to work",
+              "Eat a balanced diet with plenty of fruits, vegetables, and whole grains",
+              "Avoid processed and high-calorie foods",
+              "Incorporate strength training and cardio exercises into your workout routine",
+              "Listen to your body and rest when needed"
+            ],
+            "motivation": [
+              "Remember why you started your fitness journey and let that motivate you to keep going",
+              "Celebrate small victories along the way, such as completing a difficult workout or trying a new recipe",
+              "Find a workout buddy or join a fitness community to stay accountable and motivated",
+              "Reward yourself with non-food related items, such as a new workout outfit or a relaxing bath",
+              "Focus on progress, not perfection, and remember that fitness is a journey, not a destination",
+              "Remind yourself that every small step counts and that you are capable of achieving your goals"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 1765457023406,
+      "name": "Prajwal",
+      "email": "prajwal@gmail.com",
+      "password": "12345",
+      "lastGeneratedPlan": {
+        "formInput": {
+          "name": "Prajwal",
+          "age": 20,
+          "gender": "Male",
+          "heightCm": 170,
+          "weightKg": 70,
+          "goal": "Weight Loss",
+          "level": "Beginner",
+          "location": "Home",
+          "diet": "Veg",
+          "medicalHistory": "",
+          "stressLevel": ""
+        },
+        "plan": {
+          "workoutPlan": [
+            {
+              "day": 1,
+              "warmUp": "5-10 minutes of light cardio (jogging in place, jumping jacks)",
+              "exercises": [
+                {
+                  "name": "Bodyweight Squats",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Push-ups",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Lunges",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Plank",
+                  "sets": 3,
+                  "reps": 30
+                }
+              ],
+              "coolDown": "5-10 minutes of stretching"
+            },
+            {
+              "day": 2,
+              "warmUp": "5-10 minutes of light cardio (jogging in place, jumping jacks)",
+              "exercises": [
+                {
+                  "name": "Chair Dips",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Leg Raises",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Wall Sit",
+                  "sets": 3,
+                  "reps": 30
+                },
+                {
+                  "name": "Russian Twists",
+                  "sets": 3,
+                  "reps": 10
+                }
+              ],
+              "coolDown": "5-10 minutes of stretching"
+            },
+            {
+              "day": 3,
+              "warmUp": "5-10 minutes of light cardio (jogging in place, jumping jacks)",
+              "exercises": [
+                {
+                  "name": "Burpees",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Mountain Climbers",
+                  "sets": 3,
+                  "reps": 30
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "sets": 3,
+                  "reps": 30
+                },
+                {
+                  "name": "Bicycle Crunches",
+                  "sets": 3,
+                  "reps": 10
+                }
+              ],
+              "coolDown": "5-10 minutes of stretching"
+            },
+            {
+              "day": 4,
+              "warmUp": "5-10 minutes of light cardio (jogging in place, jumping jacks)",
+              "exercises": [
+                {
+                  "name": "Squats with Arm Raises",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Calf Raises",
+                  "sets": 3,
+                  "reps": 15
+                },
+                {
+                  "name": "Tricep Dips (using a chair)",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Side Plank (each side)",
+                  "sets": 3,
+                  "reps": 30
+                }
+              ],
+              "coolDown": "5-10 minutes of stretching"
+            },
+            {
+              "day": 5,
+              "warmUp": "5-10 minutes of light cardio (jogging in place, jumping jacks)",
+              "exercises": [
+                {
+                  "name": "Lunge Jumps",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Push-up Variations (diamond, decline, etc.)",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Russian twists (using a weight or medicine ball)",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Wall sit with leg lift",
+                  "sets": 3,
+                  "reps": 10
+                }
+              ],
+              "coolDown": "5-10 minutes of stretching"
+            },
+            {
+              "day": 6,
+              "warmUp": "5-10 minutes of light cardio (jogging in place, jumping jacks)",
+              "exercises": [
+                {
+                  "name": "Step-ups (using a chair or bench)",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Plank jacks",
+                  "sets": 3,
+                  "reps": 30
+                },
+                {
+                  "name": "Bicycle crunches with leg raise",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Tricep dips (using a chair) with leg lift",
+                  "sets": 3,
+                  "reps": 10
+                }
+              ],
+              "coolDown": "5-10 minutes of stretching"
+            },
+            {
+              "day": 7,
+              "warmUp": "5-10 minutes of light cardio (jogging in place, jumping jacks)",
+              "exercises": [
+                {
+                  "name": "Jumping jacks with burpees",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Mountain climbers with plank hold",
+                  "sets": 3,
+                  "reps": 30
+                },
+                {
+                  "name": "Squats with calf raises",
+                  "sets": 3,
+                  "reps": 10
+                },
+                {
+                  "name": "Russian twists with leg raises",
+                  "sets": 3,
+                  "reps": 10
+                }
+              ],
+              "coolDown": "5-10 minutes of stretching"
+            }
+          ],
+          "dietPlan": [
+            {
+              "day": 1,
+              "breakfast": "Oatmeal with fruits and nuts",
+              "lunch": "Veggie wrap with hummus and avocado",
+              "dinner": "Lentil soup with brown rice",
+              "snacks": "Carrot sticks with hummus, fresh fruits"
+            },
+            {
+              "day": 2,
+              "breakfast": "Whole grain toast with avocado and scrambled tofu",
+              "lunch": "Quinoa salad with roasted vegetables and lemon vinaigrette",
+              "dinner": "Grilled tofu with roasted sweet potatoes and green beans",
+              "snacks": "Cucumber slices with dill dip, rice cakes with almond butter"
+            },
+            {
+              "day": 3,
+              "breakfast": "Smoothie bowl with banana, spinach, and almond milk topped with granola and nuts",
+              "lunch": "Veggie and hummus wrap with mixed greens",
+              "dinner": "Vegetable stir-fry with brown rice and chickpeas",
+              "snacks": "Apple slices with almond butter, edamame"
+            },
+            {
+              "day": 4,
+              "breakfast": "Whole grain cereal with soy milk and sliced banana",
+              "lunch": "Lentil and vegetable curry with brown rice",
+              "dinner": "Grilled portobello mushrooms with roasted vegetables and quinoa",
+              "snacks": "Rice crackers with hummus, cucumber slices with dill dip"
+            },
+            {
+              "day": 5,
+              "breakfast": "Tofu scramble with whole grain toast and mixed berries",
+              "lunch": "Veggie and avocado sushi rolls with brown rice",
+              "dinner": "Vegetable and bean chili with whole grain cornbread",
+              "snacks": "Carrot sticks with hummus, fresh fruits"
+            },
+            {
+              "day": 6,
+              "breakfast": "Oatmeal with banana and honey",
+              "lunch": "Quinoa and black bean salad with mixed greens and lemon vinaigrette",
+              "dinner": "Grilled tofu with roasted asparagus and brown rice",
+              "snacks": "Cucumber slices with dill dip, rice cakes with almond butter"
+            },
+            {
+              "day": 7,
+              "breakfast": "Whole grain waffles with mixed berries and soy whipped cream",
+              "lunch": "Veggie wrap with hummus and mixed greens",
+              "dinner": "Lentil and vegetable stew with whole grain bread",
+              "snacks": "Apple slices with almond butter, edamame"
+            }
+          ]
+        },
+        "createdAt": "2025-12-11T12:44:32.523Z"
+      }
+    },
+    {
+      "id": 1765458555942,
+      "name": "Akshay",
+      "email": "akshay@gmail.com",
+      "password": "12345"
+    }
+  ]
+}
