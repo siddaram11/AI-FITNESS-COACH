@@ -1,5 +1,5 @@
 "use client";
-
+//main-page
 import { useState } from "react";
 import { motion } from "framer-motion";
 import PlanForm, { UserInput } from "@/components/PlanForm";
