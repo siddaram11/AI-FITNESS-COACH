@@ -13,50 +13,48 @@ export default function HomePage() {
   const setPlan = usePlanStore((s) => s.setPlan);
   const router = useRouter();
 
-  // ----------------------------------------------------------------
-  // ⭐ Handle Plan Generation + Store User Inputs + Store Plan
-  // ----------------------------------------------------------------
+  // ⭐ Handle Plan Generation
   const handleGenerate = async (formData: UserInput) => {
-    try {
-      setLoading(true);
+  try {
+    setLoading(true);
 
-      // logged in user info from localStorage
-      const user = JSON.parse(localStorage.getItem("loggedInUser") || "{}");
+    const res = await fetch("/api/generate-plan", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: formData.name,
+        age: formData.age,
+        gender: formData.gender,
+        height: formData.heightCm,   // FIXED
+        weight: formData.weightKg,   // FIXED
+        goal: formData.goal,
+        level: formData.level,
+        location: formData.location,
+        diet: formData.diet,
+      }),
+    });
 
-      const res = await fetch("/api/generate-plan", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          userEmail: user.email || null, // send user email
-          formData: formData,            // send user inputs
-        }),
-      });
+    if (!res.ok) throw new Error("Failed to generate plan");
 
-      if (!res.ok) throw new Error("Failed to generate plan");
+    const json = await res.json();
 
-      const json = await res.json();
+    setPlan(json.plan);
 
-      // ⭐ Save plan in Zustand
-      setPlan(json.plan);
+    localStorage.setItem("generatedPlan", JSON.stringify({
+      user: formData,
+      plan: json.plan
+    }));
 
-      // ⭐ Save everything in localStorage
-      localStorage.setItem(
-        "generatedPlan",
-        JSON.stringify({
-          user: formData,
-          plan: json.plan,
-        })
-      );
+    router.push("/plan");
 
-      // Go to plan viewer page
-      router.push("/plan");
-    } catch (err: any) {
-      alert(err.message);
-    } finally {
-      setLoading(false);
-    }
-  };
-  
+  } catch (err: any) {
+    alert(err.message);
+  } finally {
+    setLoading(false);
+  }
+};
+
+
   // ----------------------------------------------------------------
   // UI
   // ----------------------------------------------------------------
@@ -74,7 +72,8 @@ export default function HomePage() {
       <Header />
 
       <div className="container max-w-5xl mx-auto py-12 px-4">
-        {/* PAGE TITLE */}
+        
+        {/* TITLE */}
         <motion.div
           className="flex justify-between items-center mb-12"
           initial={{ opacity: 0, y: -20 }}
@@ -106,7 +105,7 @@ export default function HomePage() {
           "
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5, ease: "easeOut" }}
+          transition={{ duration: 0.5, ease: 'easeOut' }}
         >
           <h2 className="text-2xl font-semibold text-center mb-6">
             Create Your Personalized AI Workout & Diet Plan
@@ -116,16 +115,15 @@ export default function HomePage() {
             Answer a few questions and let AI build your fitness plan!
           </p>
 
-          {/* FORM COMPONENT */}
+          {/* FORM */}
           <PlanForm onGenerate={handleGenerate} loading={loading} />
         </motion.div>
 
-        {/* QUOTE MOBILE VIEW */}
+        {/* MOBILE QUOTE */}
         <div className="mt-10 md:hidden flex justify-center">
           <MotivationQuote />
         </div>
       </div>
     </main>
   );
-  
 }
